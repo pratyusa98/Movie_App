@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Search Movie</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+  <!--   <link href="starter-template.css" rel="stylesheet"> -->
+    <style type="text/css">
+      body {
+  padding-top: 5rem;
+    background-image: url("https://raw.githubusercontent.com/kishan0725/The-Movie-Cinema/master/static/image.jpg");
+
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/">TMDB Movie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <main role="main" class="container-fluid w-75">
+
+      <div class="starter-template">
+     
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/{{movie.poster_path}}" alt="Card image cap">
+    </div>
+    <div class="col" style="color: white">
+      <h3 class="card-title">Film Name: {{movie.original_title}}</h3> <hr>
+
+      <p class="card-text" style="text-align: justify;"> {{movie.overview}}</p> <hr>
+     
+        <p class="card-text"> Rating Of Film: {{movie. vote_average}}</p>
+        <p class="card-text"> Budget Of Film: {{movie.budget}}</p>
+ <b class="card-text">  release_date: {{movie.release_date}}</b>
+ <p class="card-text">  runtime Of Film: {{movie. runtime}} Minutes</p>
+
+  <p class="card-text"> genres Of Film:  {{genres}}</p>
+
+  <a href="/" class="btn btn-dark">Back To Home</a>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+   
+     
+
+      </div>
+
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || 
+    document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
