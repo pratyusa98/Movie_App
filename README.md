@@ -1,5 +1,6 @@
 # Movie_App
 Flask_Movie_App
+![1](img/1.PNG)
 
 ### Description
 A movie search app built with Flask using the TMDB API . The application makes use of the movie database API (tmdb).
@@ -26,7 +27,7 @@ Here are the features in summary:
 
 Give a ⭐️ if this project helped you!
 
-![1](img/1.PNG)
+
 ![2](img/2.PNG)
 ![3](img/3.PNG)
 ![4](img/4.PNG)
